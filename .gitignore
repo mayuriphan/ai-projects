@@ -2,6 +2,8 @@
 __pycache__/
 *.pyc
 *.pyo
+.pytest_cache/
+*.py[cod]
 
 # Virtual env
 venv/
@@ -10,3 +12,6 @@ venv/
 # IDE
 .vscode/
 .idea/
+.env
+models/*.joblib
+data/processed/*.csv
